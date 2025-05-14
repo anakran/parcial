@@ -7,10 +7,10 @@ function descuento(){
     let descuento = 0.2*((500000+350000)* cantidad);
     let boleta = (document.getElementById("localidad").value);
     if (boleta == 'AMBAS'){
-        alert('el descuento es ', + descuento )
+        alert(descuento )
     }
     else{
-        alert('no se obtiene descuento')
+        alert(descuento)
     }
     console.log(descuento)
 }
@@ -31,7 +31,7 @@ function Confirmacion(){
         total += 500000+350000* cantidad;
 
     }
-    alert('el valor total de su compra es ' + total)
+    alert('usted ha confirmado su compra')
 
 
 
